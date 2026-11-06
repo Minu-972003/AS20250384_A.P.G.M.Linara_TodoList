@@ -1,0 +1,44 @@
+
+body {
+    background-color: #f4f5f9;
+}
+
+.todo-container {
+    background-color: white;
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#errorMessage {
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .todo-container {
+        padding: 20px;
+        margin: 10px;
+    }
+}
